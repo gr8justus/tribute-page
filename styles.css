@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    hyphens: auto;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+#container {
+    background-color: #eee;
+    margin: 30px 3px;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 2em 0 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+header > p {
+    font-size: 18px;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 16px 40px;
+    align-items: center;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+section {
+    width: 50%;
+    margin: 0 auto;
+    min-width: 650px;
+}
+
+.bold {
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+li {
+    margin: 15px 0;
+    font-size: 17px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 40px 0 40px 20px;
+}
+
+.more-details {
+    text-align: center;
+    padding: 20px 5px;
+    font-size: 20px;
+}
+
+.more-details a {
+    color: #477ca7;
+}
+
+/* To hide content meant for screen reader */
+/* span[class~=""] {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    -webkit-clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+    margin: -1px;
+} */
